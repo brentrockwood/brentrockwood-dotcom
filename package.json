@@ -1,0 +1,14 @@
+{
+  "name": "brentrockwood-dotcom",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "3.0.x",
+    "jade": "0.28.x",
+    "less-middleware": "0.1.9"
+  },
+	"private": "true",
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.2.x"
+  }
+}

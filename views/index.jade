@@ -1,50 +1,63 @@
 extends layout
 
 block content
-  body
-    .container
-      .hero-unit
-        h1 Hello, my name is
-          strong  Brent.
-        p.tagline I am a web designer and software developer, and I am
-          em  at your service.
-      .row
-        .span4
-          i.icon-globe.icon-4x
-          h2 Web Development
-          p From the simplest content sites to the most complex custom web apps, I take advantage of the latest in web technologies, including social media integration, and design that works on all your visitors' devices - from phones to wall sized displays.
-        .span4
-          i.icon-desktop.icon-4x
-          h2 Custom Software
-          p With years of experience building products for major software vendors and custom enterprise software for leading companies around the world, you can trust your project will be delivered with the quality and control you expect.
-        .span4
-          i.icon-cloud.icon-4x
-          h2 Cloud Deployment
-          p Your business requires that your web or enterprise project is up and running 24/7.  Take advantage of deployment and monitoring services for the major cloud environments - Amazon Web Services, Rackspace, and Microsoft Azure.
-      .row
-        .span2
-        .span4
-          a(href="tel:+19024497845")
-            i.icon-phone.icon-4x
-            p +1 902-449-7845
-        .span4
-          a(href="mailto:brent@brentrockwood.com")
-            i.icon-envelope.icon-4x
-            p brent@brentrockwood.com
-      .row
-        .span4
-          a(href="https://www.linkedin.com/in/brentrockwood/")
-            i.icon-linkedin.icon-4x
-            p LinkedIn
-        .span4
-          a(href="https://twitter.com/brentrockwood")
-            i.icon-twitter.icon-4x
-            p Twitter
-        .span4
-          a(href="https://github.com/brentrockwood")
-            i.icon-github-alt.icon-4x
-            p GitHub
-      footer
-        &copy; 2013, Brent Rockwood.  All rights reserved.
-    script(src="http://code.jquery.com/jquery-latest.js")
-    script(src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js")
+  .container
+  
+    .hero-unit
+      h1 Hello, my name is
+        strong  Brent.
+      p.tagline I am a web designer and software developer, and I am
+        em  at your service.
+        
+    .row
+      .span4
+        h2
+          i.icon-group.icon-2x.pull-left
+          | Design
+        p Understanding the goals is the most important first step of any project.  These inform, not only the visual and functional design, but also help you evaluate project success.
+      .span4
+        h2
+          i.icon-desktop.icon-2x.pull-left
+          | Develop
+        p With years of experience building products for major software vendors and custom enterprise software for leading companies around the world, you can trust your project will be developed with the quality and control you expect.
+      .span4
+        h2
+          i.icon-thumbs-up.icon-2x.pull-left
+          | Socialize
+        p Allow your visitors to share their experience with their friends and colleagues, right from your app. Automatically broadcast to your followers every time you update.
+
+    .row
+      .span4
+        h2
+          i.icon-ok.icon-2x.pull-left
+          | Test
+        p A comprehensive suite of automated tests give you piece of mind when going live with updates.  They also serve as documentation of how your project works.  These will come in handy if I am eaten by a honey badger.
+      .span4
+        h2
+          i.icon-lock.icon-2x.pull-left
+          | Secure
+        p Integrate traditional identity providers, including Active Directory, or social identity providers like Facebook and Twitter.  Minimize attack surfaces.  Develop intrusion detection monitors and a plan to deal with them if the worst happens.
+
+      .span4
+        h2
+          i.icon-cloud-upload.icon-2x.pull-left
+          | Deploy
+        p Your business requires that your web or enterprise project is up and running 24/7.  Take advantage of deployment and monitoring services for the major cloud environments - Amazon Web Services, Rackspace, and Microsoft Azure.
+
+    .row
+      .span4
+        h2
+          i.icon-dashboard.icon-2x.pull-left
+          | Monitor
+        p Instrumentation, logging, and automated alerts allow you to keep tabs on the health of your production apps, and respond quickly if something goes wrong.
+      .span4
+        h2
+          i.icon-bar-chart.icon-2x.pull-left
+          | Measure
+        p You can't improve what you can't measure.  A full set of analytic data allows you to measure the impact of your project, and more easily determine your return on investment.
+
+      .span4
+        h2
+          i.icon-retweet.icon-2x.pull-left
+          | Iterate
+        p By delivering small amounts of functionality at a time, you always have clarity into the state of your project, and you can make smart decisions based on real-world use.

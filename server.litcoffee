@@ -2,6 +2,12 @@
 
     env = process.env['NODE_ENV'] || 'development'
 
+Monitor with New Relic.
+
+    require 'newrelic'
+
+Create the app.
+
     express = require 'express'
     app = express()
 

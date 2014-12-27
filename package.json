@@ -20,7 +20,8 @@
     "coffee-script": "1.8.x",
     "express": "3.18.x",
     "jade": "1.8.x",
-    "less": "1.7.x"
+    "less": "1.7.x",
+    "newrelic": "1.14.x"
   },
   "private": "true",
   "engines": {

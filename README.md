@@ -1,6 +1,6 @@
 # Brent Rockwood's Homepage
 
-This is the code for the page at http://brentrockwood.com/.
+This is the code for the page at https://brentrockwood.com/.
 
 ## Copyright
 

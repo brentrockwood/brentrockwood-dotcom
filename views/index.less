@@ -1,10 +1,73 @@
-@textColor: #333333;
+@light: #ffffff;
+@dark: #333333;
+@column-width: 20em;
+@gutter: 2em;
 
-.hero-unit { text-align: center; background-color: white; }
-em { font-weight: bold; }
-.row { margin-bottom: 5em; }
-a { color: @textColor; }
-a:hover { text-decoration: none; color: @textColor; }
-footer { min-height: 3em; background-color: @textColor; color: white; padding-top: 2em; padding-bottom: 2em; }
-footer a, footer a:hover { color: white; }
-footer ul { list-style: none; margin-left: 0; }
+a {
+  color: @dark;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  margin: 0 0;
+}
+
+.container {
+  max-width: @column-width * 3;
+  margin: 0 auto;
+
+  p {
+    line-height: 1.5em;
+  }
+}
+
+section {
+  display: inline-block;
+  vertical-align: top;
+  width: @column-width - @gutter;
+  margin: 0em @gutter/2;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 4em;
+  margin-bottom: 0;
+}
+
+footer {
+  min-height: 3em;
+  background-color: @dark;
+  color: @light;
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+  a, a:hover {
+    color: @light;
+  }
+
+  ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+
+// Would be lovely to calculate the media query values from the column
+// width, but unfortunately, less does not expand the expressions.
+
+@media screen and (max-width: 60em) and (min-width: 40em) {
+  .container {
+    width: @column-width * 2;
+  }
+}
+
+@media screen and (max-width: 40em) {
+  .container {
+    width: @column-width;
+  }
+}

@@ -17,7 +17,7 @@
    version="1.1"
    inkscape:version="0.48.5 r10040"
    sodipodi:docname="character.svg"
-   inkscape:export-filename="/Users/br/Projects/brentrockwood-dotcom/public/img/character.png"
+   inkscape:export-filename="/Users/br/Desktop/character.png"
    inkscape:export-xdpi="54.293564"
    inkscape:export-ydpi="54.293564">
   <defs
@@ -257,7 +257,7 @@
        sodipodi:nodetypes="cccc" />
     <path
        style="fill:#212c45;fill-opacity:1;stroke:none"
-       d="m 326.56968,811.9844 c 30.28565,-1.07981 53.44801,9.14176 83.73366,8.06195 5.75045,56.14978 2.51403,140.64275 3.91175,196.79255 -36.36225,1.9419 -118.48516,-20.43419 -136.03864,-28.24687 0.077,-62.57048 31.05287,-116.396 48.39323,-176.60763 z"
+       d="m 326.56968,811.9844 c 30.28565,-1.07981 53.44801,9.14176 83.73366,8.06195 5.75045,56.14978 2.51403,140.64275 3.91175,196.79255 -36.36225,1.9419 -118.48516,-20.43419 -136.03864,-28.24687 30.97324,-54.84642 31.05287,-116.396 48.39323,-176.60763 z"
        id="path5364"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
@@ -271,7 +271,7 @@
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path5400"
-       d="m 525.21796,810.70262 c 30.28565,-1.07981 66.09133,2.91195 96.37698,1.83214 6.02046,62.93168 9.87442,156.84929 6.65542,208.93304 -36.36225,1.942 -121.14689,-21.4206 -138.70037,-29.23329 0.077,-62.57048 3.00447,-104.08173 35.66797,-181.53189 z"
+       d="m 525.21796,810.70262 c 30.28565,-1.07981 66.09133,2.91195 96.37698,1.83214 6.02046,62.93168 9.87442,156.84929 6.65542,208.93304 -36.36225,1.942 -121.14689,-21.4206 -138.70037,-29.23329 21.31817,-52.9154 24.24564,-90.56462 35.66797,-181.53189 z"
        style="fill:#212c45;fill-opacity:1;stroke:none" />
     <rect
        style="fill:#212c45;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"

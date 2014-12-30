@@ -23,6 +23,17 @@
   <defs
      id="defs4">
     <linearGradient
+       id="linearGradient6306">
+      <stop
+         id="stop6308"
+         offset="0"
+         style="stop-color:#fdac8c;stop-opacity:1;" />
+      <stop
+         id="stop6310"
+         offset="1"
+         style="stop-color:#b27765;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
        id="linearGradient5382">
       <stop
          style="stop-color:#332928;stop-opacity:1;"
@@ -188,16 +199,14 @@
        y1="382.35242"
        x2="552.85675"
        y2="382.35242" />
-    <radialGradient
+    <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5227"
-       id="radialGradient5914"
-       cx="243.27634"
-       cy="537.22986"
-       fx="243.27634"
-       fy="537.22986"
-       r="71.5"
-       gradientTransform="matrix(-2.7117655,0.70303559,-0.40924267,-0.47877862,1104.5967,575.76117)"
+       xlink:href="#linearGradient6306"
+       id="linearGradient6304"
+       x1="247.96704"
+       y1="514.36444"
+       x2="257.42862"
+       y2="555.40259"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
@@ -370,7 +379,7 @@
        sodipodi:nodetypes="sscss" />
     <path
        sodipodi:type="arc"
-       style="fill:url(#radialGradient5914);fill-opacity:1;fill-rule:evenodd;stroke:none"
+       style="fill:url(#linearGradient6304);fill-opacity:1.0;fill-rule:evenodd;stroke:none"
        id="path3755"
        sodipodi:cx="242"
        sodipodi:cy="501.36218"

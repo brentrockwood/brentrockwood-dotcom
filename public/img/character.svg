@@ -204,9 +204,9 @@
        xlink:href="#linearGradient6306"
        id="linearGradient6304"
        x1="247.96704"
-       y1="514.36444"
-       x2="257.42862"
-       y2="555.40259"
+       y1="510.70758"
+       x2="246.36189"
+       y2="592.78394"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
@@ -379,7 +379,7 @@
        sodipodi:nodetypes="sscss" />
     <path
        sodipodi:type="arc"
-       style="fill:url(#linearGradient6304);fill-opacity:1.0;fill-rule:evenodd;stroke:none"
+       style="fill:url(#linearGradient6304);fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="path3755"
        sodipodi:cx="242"
        sodipodi:cy="501.36218"

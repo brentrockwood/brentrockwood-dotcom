@@ -16,8 +16,8 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="character.svg"
-   inkscape:export-filename="/Users/br/character.png"
+   sodipodi:docname="character-plain.svg"
+   inkscape:export-filename="/Users/br/Projects/brentrockwood-dotcom/public/img/character.png"
    inkscape:export-xdpi="54.293564"
    inkscape:export-ydpi="54.293564">
   <defs
@@ -217,7 +217,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.5169173"
-     inkscape:cx="444.5491"
+     inkscape:cx="102.13456"
      inkscape:cy="605.42794"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
@@ -239,7 +239,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -428,7 +428,7 @@
        inkscape:connector-curvature="0"
        id="path5956"
        d="m 405.83734,326.80513 c -14.71936,39.51355 -24.6921,136.00965 49.71737,79.15843"
-       style="fill:none;stroke:#e66e52;stroke-width:8.94128418px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:#fba789;stroke:#e66e52;stroke-width:8.94128418000000025px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1" />
     <path
        inkscape:transform-center-y="13.142612"
        inkscape:transform-center-x="4.1503096"
